@@ -1,0 +1,34 @@
+搜狐：
+href：//td[@class='newsblue1']//a/@href
+标题：//div[@class='left']/h1/text()
+时间：//div[@class='sourceTime']//div[@class='r']
+来源：//span[@id='media_span']
+content：//div[@class='text clear']/text()
+
+腾讯：
+https://news.qq.com/l/12797563045/list_12797563045.htm
+https://news.qq.com/l/12797563045/list_12797563045_2.htm
+https://news.qq.com/l/12797563045/list_12797563045_3.htm
+
+href：
+//td[@class='lh_26 font14px']/a/@href
+//ul[@class='list01 font_s_14 line_h_25']/li/a/@href
+//div[@class='layout-content-left']//h4[@class='title']/a/@href
+
+下一页：//*[text()='下一页>']/@href
+
+标题：//div[@class='hd']//h1/text()
+时间：//div[@class='info']/text()
+来源：//div[@class='info']//span[@class='where']//text()
+content：//div[@class='bd']//div[@id='Cnt-Main-Article-QQ']//p/text()
+
+新浪：
+http://roll.news.sina.com.cn/s_tfny_all/1/index.shtml
+http://roll.news.sina.com.cn/s_tfny_all/1/index.shtml
+http://roll.news.sina.com.cn/s_tfny_all/1/index.shtml
+
+href：//span[@class='c_tit']/a/@href
+标题：//div[@class='blkContainerSblk']//h1/text()
+时间：//div[@class='blkContainerSblk']//span[@id='pub_date']/text()
+来源：//div[@class='blkContainerSblk']//span[@id='media_name']/a/text()
+内容：//div[@class='blkContainerSblkCon']//p/text()
